@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icnons{
+    margin-top: 5px;
+}
+
+.main-contaier{
+    background: linear-gradient(to right, rgba(0,98,185,0.8), rgba(0,98,185,0.8)),url(../public/assets/common-bg.svg);
+    color: #fff;
+    position: fixed;
+    top: 7%;
+    left: 0;
+   width: 100vw;
+   height: 100vh;
+}
+
+
+
+.imagesoultions button{
+
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    transition: transform .3s;
+    color: #fff blueviolet;
+    padding: .3rem 1.5rem;
+    font-size: 2rem;
+    
+}
